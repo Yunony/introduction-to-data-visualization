@@ -33,15 +33,9 @@
           value:20,
           color:"FOFOFO"
         },
-        ];// add the code for the pie chart here:
-
-      // create the data variable
-
-      // create the options variable
-
-      // get the canvas element and set it to the ctx variable
-
-      // use the ctx variable to create a new chart
+        ];
+      var ctx = document.getElementById("myChart").getContext("2d");
+      var lineChart = new Chart(ctx).Pie(data);
       
     </script>
   </body>
